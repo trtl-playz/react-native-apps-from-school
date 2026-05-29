@@ -82,7 +82,7 @@ export default class App extends Component {
                                     you caught a shark
                                 </Text>
                                 <Image
-                                    source={{ uri: 'https://codehs.com/uploads/9153003f3b0e2d76db426943f1877842' }}
+                                    source={{ uri: 'https://dn711309.ca.archive.org/0/items/trtl_fish/shark.png' }}
                                     style={{ height: 200, width: 200 }}
                                 />
                             </>
@@ -94,7 +94,7 @@ export default class App extends Component {
                                     you caught blue fish
                                 </Text>
                                 <Image
-                                    source={{ uri: 'https://codehs.com/uploads/e7ba8ee192b0cccbb24f94a213cbbe02' }}
+                                    source={{ uri: 'https://dn711309.ca.archive.org/0/items/trtl_fish/blue.png' }}
                                     style={{ height: 200, width: 200 }}
                                 />
                             </>
@@ -106,7 +106,7 @@ export default class App extends Component {
                                     you caught red fish
                                 </Text>
                                 <Image
-                                    source={{ uri: 'https://codehs.com/uploads/a340e29672ab9a55c5ecd6e703fadd50' }}
+                                    source={{ uri: 'https://dn711309.ca.archive.org/0/items/trtl_fish/red.png' }}
                                     style={{ height: 200, width: 200 }}
                                 />
                             </>
@@ -118,7 +118,7 @@ export default class App extends Component {
                                     you caught pink fish
                                 </Text>
                                 <Image
-                                    source={{ uri: 'https://codehs.com/uploads/d7f3be8033903ed8111442e1750190e7' }}
+                                    source={{ uri: 'https://dn711309.ca.archive.org/0/items/trtl_fish/pink.png' }}
                                     style={{ height: 200, width: 200 }}
                                 />
                             </>
@@ -130,7 +130,7 @@ export default class App extends Component {
                                     you caught yellow fish
                                 </Text>
                                 <Image
-                                    source={{ uri: 'https://codehs.com/uploads/18896a99bc4cff9ceaf2c77bee07d356' }}
+                                    source={{ uri: 'https://dn711309.ca.archive.org/0/items/trtl_fish/yellow.png' }}
                                     style={{ height: 200, width: 200 }}
                                 />
                             </>
@@ -142,7 +142,7 @@ export default class App extends Component {
                                     you caught green fish
                                 </Text>
                                 <Image
-                                    source={{ uri: 'https://codehs.com/uploads/0e4804a4f7c4e67ef68aceca540891cd' }}
+                                    source={{ uri: 'https://dn711309.ca.archive.org/0/items/trtl_fish/green.png' }}
                                     style={{ height: 200, width: 200 }}
                                 />
                             </>
