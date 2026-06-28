@@ -12,119 +12,32 @@ export default class App extends Component {
 render() {
 return (
     <View style={styles.container}>
-
         <View style={styles.topBox}>
             <View style={styles.outline}>
                 <View style={styles.outerCircle}>
                     <View style={styles.midCircle}>
                         <View style={styles.innerCircle}>
-                            
-                            {this.state.number==0 &&
-                                <Text style={styles.text8}>
-                                    shake me plz
-                                </Text>
-                            }
-                            {this.state.number==1 &&
-                                <Text style={styles.text8}>
-                                    It is certain
-                                </Text>
-                            }
-                            {this.state.number==2 &&
-                                <Text style={styles.text8}>
-                                    It is decidedly so
-                                </Text>
-                            }
-                            {this.state.number==3 &&
-                                <Text style={styles.text8}>
-                                    Better not tell you now
-                                </Text>
-                            }
-                            {this.state.number==4 &&
-                                <Text style={styles.text8}>
-                                    Don't count on it
-                                </Text>
-                            }
-                            {this.state.number==5 &&
-                                <Text style={styles.text8}>
-                                    yes
-                                </Text>
-                            }
-                            {this.state.number==6 &&
-                                <Text style={styles.text8}>
-                                    no
-                                </Text>
-                            }
-                            {this.state.number==7 &&
-                                <Text style={styles.text8}>
-                                    maybe
-                                </Text>
-                            }
-                            {this.state.number==8 &&
-                                <Text style={styles.text8}>
-                                    shake me plz
-                                </Text>
-                            }
-                            {this.state.number==9 &&
-                                <Text style={styles.text8}>
-                                    As I see it, yes
-                                </Text>
-                            }
-                            {this.state.number==10 &&
-                                <Text style={styles.text8}>
-                                    Most likely
-                                </Text>
-                            }
-                            {this.state.number==11 &&
-                                <Text style={styles.text8}>
-                                    Most likely not
-                                </Text>
-                            }
-                            {this.state.number==12 &&
-                                <Text style={styles.text8}>
-                                    It's possible
-                                </Text>
-                            }
-                            {this.state.number==13 &&
-                                <Text style={styles.text8}>
-                                    It's not possible
-                                </Text>
-                            }
-                            {this.state.number==14 &&
-                                <Text style={styles.text8}>
-                                    Signs point to yes
-                                </Text>
-                            }
-                            {this.state.number==15 &&
-                                <Text style={styles.text8}>
-                                    Signs point to no
-                                </Text>
-                            }
-                            {this.state.number==16 &&
-                                <Text style={styles.text8}>
-                                    Signs point to Lohman
-                                </Text>
-                            }
-                            {this.state.number==17 &&
-                                <Text style={styles.text8}>
-                                    Deffinatley not
-                                </Text>
-                            }
-                            {this.state.number==18 &&
-                                <Text style={styles.text8}>
-                                    100% no
-                                </Text>
-                            }
-                            {this.state.number==19 &&
-                                <Text style={styles.text8}>
-                                    idk
-                                </Text>
-                            }
-                            {this.state.number==20 &&
-                                <Text style={styles.text8}>
-                                    you rolled a nat 20
-                                </Text>
-                            }
-                            
+                            {this.state.number==0 && <Text style={styles.text8}>shake me plz</Text>}
+                            {this.state.number==1 && <Text style={styles.text8}>It is certain</Text>}
+                            {this.state.number==2 && <Text style={styles.text8}>It is decidedly so</Text>}
+                            {this.state.number==3 && <Text style={styles.text8}>Better not tell you now</Text>}
+                            {this.state.number==4 && <Text style={styles.text8}>Don't count on it</Text>}
+                            {this.state.number==5 && <Text style={styles.text8}>yes</Text>}
+                            {this.state.number==6 && <Text style={styles.text8}>no</Text>}
+                            {this.state.number==7 && <Text style={styles.text8}>maybe</Text>}
+                            {this.state.number==8 && <Text style={styles.text8}>shake me plz</Text>}
+                            {this.state.number==9 && <Text style={styles.text8}>As I see it, yes</Text>}
+                            {this.state.number==10 && <Text style={styles.text8}>Most likely</Text>}
+                            {this.state.number==11 && <Text style={styles.text8}>Most likely not</Text>}
+                            {this.state.number==12 && <Text style={styles.text8}>It's possible</Text>}
+                            {this.state.number==13 && <Text style={styles.text8}>It's not possible</Text>}
+                            {this.state.number==14 && <Text style={styles.text8}>Signs point to yes</Text>}
+                            {this.state.number==15 && <Text style={styles.text8}>Signs point to no</Text>}
+                            {this.state.number==16 && <Text style={styles.text8}>Signs point to Lohman</Text>}
+                            {this.state.number==17 && <Text style={styles.text8}>Deffinatley not</Text>}
+                            {this.state.number==18 && <Text style={styles.text8}>100% no</Text>}
+                            {this.state.number==19 && <Text style={styles.text8}>idk</Text>}
+                            {this.state.number==20 && <Text style={styles.text8}>you rolled a nat 20</Text>}
                         </View>
                     </View>
                 </View>
@@ -132,7 +45,6 @@ return (
         </View>
         
         <View style={styles.bottomBox}>
-            
             
             <View style={styles.box}>
                 <TouchableHighlight
@@ -143,7 +55,6 @@ return (
                     </View>
                 </TouchableHighlight>
             </View>
-            
             
             <Text style={styles.text8}>{this.state.number}</Text>
         </View>
